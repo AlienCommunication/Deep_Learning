@@ -27,9 +27,9 @@ NOTE : This is the original dataset
 3. Encoding = latin-1     , There are some special chracter in the movies title.
 """
 
-movies = pd.read_csv("/content/drive/My Drive/Udemy Lectures/Boltzmann Machine/ml-1m/movies.dat", sep = '::', header = None, engine = 'python', encoding = 'latin-1')
-users = pd.read_csv("/content/drive/My Drive/Udemy Lectures/Boltzmann Machine/ml-1m/users.dat", sep = '::', header = None, engine = 'python', encoding = 'latin-1')
-ratings = pd.read_csv("/content/drive/My Drive/Udemy Lectures/Boltzmann Machine/ml-1m/ratings.dat", sep = '::', header = None, engine = 'python', encoding = 'latin-1')
+movies = pd.read_csv("/content/drive/My Drive/Boltzmann Machine/ml-1m/movies.dat", sep = '::', header = None, engine = 'python', encoding = 'latin-1')
+users = pd.read_csv("/content/drive/My Drive/Boltzmann Machine/ml-1m/users.dat", sep = '::', header = None, engine = 'python', encoding = 'latin-1')
+ratings = pd.read_csv("/content/drive/My Drive/Boltzmann Machine/ml-1m/ratings.dat", sep = '::', header = None, engine = 'python', encoding = 'latin-1')
 
 movies.head()
 
@@ -60,9 +60,9 @@ NOte : Separater for this file is Tab hence using \t parameter
 I am converting these dataset into numpy array because I am using PyTorch Tensors
 """
 
-training_set = pd.read_csv("/content/drive/My Drive/Udemy Lectures/Boltzmann Machine/ml-100k/u1.base", delimiter = '\t')
+training_set = pd.read_csv("/content/drive/Boltzmann Machine/ml-100k/u1.base", delimiter = '\t')
 training_set = np.array(training_set, dtype = 'int')
-test_set = pd.read_csv("/content/drive/My Drive/Udemy Lectures/Boltzmann Machine/ml-100k/u1.test", delimiter = '\t')
+test_set = pd.read_csv("/content/drive/drive/Boltzmann Machine/ml-100k/u1.test", delimiter = '\t')
 test_set = np.array(test_set, dtype = 'int')
 
 """
