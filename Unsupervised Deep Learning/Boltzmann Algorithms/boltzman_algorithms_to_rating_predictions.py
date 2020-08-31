@@ -27,9 +27,9 @@ NOTE : This is the original dataset
 3. Encoding = latin-1     , There are some special chracter in the movies title.
 """
 
-movies = pd.read_csv("/content/drive/My Drive/Udemy Lectures/Boltzmann Machine/ml-1m/movies.dat", sep = '::', header = None, engine = 'python', encoding = 'latin-1')
-users = pd.read_csv("/content/drive/My Drive/Udemy Lectures/Boltzmann Machine/ml-1m/users.dat", sep = '::', header = None, engine = 'python', encoding = 'latin-1')
-ratings = pd.read_csv("/content/drive/My Drive/Udemy Lectures/Boltzmann Machine/ml-1m/ratings.dat", sep = '::', header = None, engine = 'python', encoding = 'latin-1')
+movies = pd.read_csv("/content/drive/My Drive/Boltzmann Machine/ml-1m/movies.dat", sep = '::', header = None, engine = 'python', encoding = 'latin-1')
+users = pd.read_csv("/content/drive/My Drive/Boltzmann Machine/ml-1m/users.dat", sep = '::', header = None, engine = 'python', encoding = 'latin-1')
+ratings = pd.read_csv("/content/drive/My Drive/Boltzmann Machine/ml-1m/ratings.dat", sep = '::', header = None, engine = 'python', encoding = 'latin-1')
 
 movies.head()
 
