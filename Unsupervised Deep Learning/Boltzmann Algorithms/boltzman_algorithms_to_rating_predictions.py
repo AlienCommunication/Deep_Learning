@@ -60,9 +60,9 @@ NOte : Separater for this file is Tab hence using \t parameter
 I am converting these dataset into numpy array because I am using PyTorch Tensors
 """
 
-training_set = pd.read_csv("/content/drive/My Drive/Udemy Lectures/Boltzmann Machine/ml-100k/u1.base", delimiter = '\t')
+training_set = pd.read_csv("/content/drive/Boltzmann Machine/ml-100k/u1.base", delimiter = '\t')
 training_set = np.array(training_set, dtype = 'int')
-test_set = pd.read_csv("/content/drive/My Drive/Udemy Lectures/Boltzmann Machine/ml-100k/u1.test", delimiter = '\t')
+test_set = pd.read_csv("/content/drive/drive/Boltzmann Machine/ml-100k/u1.test", delimiter = '\t')
 test_set = np.array(test_set, dtype = 'int')
 
 """
