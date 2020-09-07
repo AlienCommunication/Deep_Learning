@@ -1,13 +1,9 @@
-Target locked :
+Steps :
 
-Optimizing Tensorflow Model using TensorRT with faster inferencing
+Note : DO NOT RENAME THE FILES YOU GET AFTER CONVERTING KERAS MODEL INTO TENSORFLOW MODEL OR ANY FILES. If you modify them. They won't work.
 
-Visualisation of Deep Learning Graph before and after TensorRT
+Convert Keras model to Tensorflow model
 
-Optimisation of Keras model to TensorRT
+Tensorflow Model to Frozen model
 
-
-How to use DL Models for inferencing
-
-
-Optimisation of YOLO v3 model using TensorRT
+Frozen model for inferencing and Frozen model to TensorRT for optimisatio
