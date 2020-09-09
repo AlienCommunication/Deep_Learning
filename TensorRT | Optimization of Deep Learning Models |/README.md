@@ -5,19 +5,9 @@ DO NOT RENAME THE FILES YOU GET AFTER CONVERTING KERAS MODEL INTO TENSORFLOW MOD
 
 
 
-[](url)
-
-## 1.
-
-Convert Keras model to Tensorflow model
-
-## 2. 
-
-Tensorflow Model to Frozen model
-
-## 3.
-
-Frozen model for inferencing and Frozen model to TensorRT for optimisation
-
-
 ## Model's Graph
+
+![Graph of the model](https://github.com/AmitYadav1995/Deep_Learning/blob/master/TensorRT%20%7C%20Optimization%20of%20Deep%20Learning%20Models%20%7C/Graph%20of%20CNN%20Model.png)
+
+
+
