@@ -13,7 +13,7 @@ Tensorflow Model to Frozen model
 
 ## 3.
 
-Frozen model for inferencing and Frozen model to TensorRT for optimisatio
+Frozen model for inferencing and Frozen model to TensorRT for optimisation
 
 
 ## Model's Graph
