@@ -1,4 +1,4 @@
-# Food Recognition Challenge - Starter Kit
+# Food Recognition Challenge
 
 ![Food-Challenge](https://i.imgur.com/0G3PEc7.png)
 
